@@ -51,8 +51,11 @@ export const IconsMenu = styled.div`
     flex-direction: column;
     text-decoration: none;
 
+    #inicio{
+      font-size: 20px;
+    }
     p{
-      margin-top: 5px;
+      margin-top: 1px;
       font-size: 15px;
       color: white;
     }

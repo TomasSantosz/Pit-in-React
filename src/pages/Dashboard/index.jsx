@@ -220,8 +220,8 @@ function Projects(){
           <Rodape>
             <IconsMenu>
               <Link to={'/'}>
-                <FaHome color={"white"} size={20} onClick={()=>{console.log("oi")}}/>
-                <p>Inicio</p>
+                <FaHome color={"white"} fontWeight={"bold"} size={26} onClick={()=>{console.log("oi")}}/>
+                <p id="inicio" style={{fontWeight: "bold"}}>Inicio</p>
               </Link>
             </IconsMenu>
             <IconsMenu>
@@ -237,7 +237,7 @@ function Projects(){
               </Link>
             </IconsMenu>
             <IconsMenu>
-              <Link to={'/perfil'}>              
+              <Link to={'/perfil'}>                              
                 <FaUser color={"white"} size={20} onClick={()=>{console.log("oi")}}/>
                 <p>Perfil</p>
               </Link>
