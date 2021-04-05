@@ -1,5 +1,7 @@
 import React from 'react';
 import { Container, Content } from './styles';
+/* import { FaHome, FaUser, FaSearch, FaBox } from 'react-icons/fa';
+import { Link } from 'react-router-dom'; */
 import HeaderMenu from '../../components/Menu';
 import { useLocation } from 'react-router-dom';
 
@@ -9,7 +11,7 @@ function Projects(){
   return(
     <>
       <Container>
-          <Content>
+        <Content>
               <h1>Hello World</h1>
               <h1>Hello World</h1>
               <h1>Hello World</h1>
@@ -218,8 +220,8 @@ function Projects(){
               <h1>Hello World</h1>
               <h1>Hello World</h1>
               
-          </Content>  
-          <HeaderMenu />        
+          </Content> 
+        <HeaderMenu />
       </Container>
     </> 
   );

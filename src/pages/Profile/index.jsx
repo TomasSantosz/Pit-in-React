@@ -9,7 +9,7 @@ function Projects(){
   return(
     <>
       <Container>
-          <Content>
+      <Content>
               <h1>Hello World</h1>
               <h1>Hello World</h1>
               <h1>Hello World</h1>
@@ -218,8 +218,8 @@ function Projects(){
               <h1>Hello World</h1>
               <h1>Hello World</h1>
               
-          </Content>  
-          <HeaderMenu />        
+          </Content> 
+          <HeaderMenu />
       </Container>
     </> 
   );
