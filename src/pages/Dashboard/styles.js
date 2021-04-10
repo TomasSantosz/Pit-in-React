@@ -11,7 +11,11 @@ export const Container = styled.div`
 
   justify-content: flex-start;
   
-  
+  #logo{
+    height: 12.5%;
+    width: 45%;
+  }
+
   /* 
   @media(max-width:975px){
     h1{
@@ -24,18 +28,16 @@ export const Container = styled.div`
 
 
 export const Content = styled.div`
+  display: flex;
+  flex-direction: column;
   width: 100vw;
   height: 90%;
+  padding: 30px 10px 0px 10px;
+  
   overflow: auto; 
 
   ::-webkit-scrollbar {
     display: none;
   }  
-
-  img{
-    margin-left: 27.5%;
-    width: 45%;
-    height: 12.5%;
-  }
 
 `;

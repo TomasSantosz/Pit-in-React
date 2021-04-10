@@ -3,6 +3,7 @@ import { Container, Content } from './styles';
 import HeaderMenu from '../../components/Menu';
 import { useLocation } from 'react-router-dom';
 import LogoPadoca from '../../images/logo/LOGOPADOCA.png';
+import Shops from './components/lojas';
 
 function Projects(){
   const location = useLocation();
@@ -10,34 +11,28 @@ function Projects(){
   return(
     <>
       <Container>
-          <Content>
-              <img src={LogoPadoca} alt="Logo Padoca" />
-              <h1>Hello World</h1>
-              <h1>Hello World</h1>
-              <h1>Hello World</h1>
-              <h1>Hello World</h1>
-              <h1>Hello World</h1>
-              <h1>Hello World</h1>
-              <h1>Hello World</h1>
-              <h1>Hello World</h1>
-              <h1>Hello World</h1>
-              <h1>Hello World</h1>
-              <h1>Hello World</h1>
-              <h1>Hello World</h1>
-              <h1>Hello World</h1>
-              <h1>Hello World</h1>
-              <h1>Hello World</h1>
-              <h1>Hello World</h1>
-              <h1>Hello World</h1>
-              <h1>Hello World</h1>
-              <h1>Hello World</h1>
-              <h1>Hello World</h1>
-              <h1>Hello World</h1>
-              <h1>Hello World</h1>
-              <h1>Hello World</h1>
-              <h1>Hello World</h1>
-              <h1>Hello World</h1>
-              
+          <img id="logo" src={LogoPadoca} alt="Logo Padoca" />
+          <Content>              
+            <Shops />
+            <Shops />
+            <Shops />
+            <Shops />
+            <Shops />
+            <Shops />
+            <Shops />
+            <Shops />
+            <Shops />
+            <Shops />
+            <Shops />
+            <Shops />
+            <Shops />
+            <Shops />
+            <Shops />
+            <Shops />
+            <Shops />
+            <Shops />
+            <Shops />
+            <Shops />
           </Content>  
           <HeaderMenu />        
       </Container>
