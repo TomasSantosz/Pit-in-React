@@ -1,9 +1,11 @@
 import React from 'react';
-import { Container, Content } from './styles';
+import { Container, Content, Titles, TitlePadarias } from './styles';
 import HeaderMenu from '../../components/Menu';
 import { useLocation } from 'react-router-dom';
 import LogoPadoca from '../../images/logo/LOGOPADOCA.png';
 import Shops from './components/lojas';
+import Carrousel from './components/carousel';
+import SubMenu from './components/submenu';
 
 function Projects(){
   const location = useLocation();
@@ -12,7 +14,12 @@ function Projects(){
     <>
       <Container>
           <img id="logo" src={LogoPadoca} alt="Logo Padoca" />
-          <Content>              
+          <Content> 
+            <SubMenu />
+            <Carrousel />
+            <Titles>
+              <TitlePadarias>Padarias</TitlePadarias>
+            </Titles>     
             <Shops />
             <Shops />
             <Shops />

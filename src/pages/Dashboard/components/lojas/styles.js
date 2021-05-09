@@ -3,9 +3,9 @@ import styled from 'styled-components';
 export const Content = styled.div` 
   display: flex;
   width: 100%;
-  height: 90px;
+  min-height: 85px;
   border: 1px solid rgba(198, 198, 198, 0.5);
-  border-radius: 15px;
+  border-radius: 5px;
 
   margin-bottom: 20px;
   padding: 10px;  
@@ -27,7 +27,7 @@ export const ImagemShop = styled.div`
   justify-content: center;
   border-radius: 50px;
   
-  width: 20%;
+  width: 15%;
   height: 100%;
   border: 1px solid rgba(198, 198, 198, 0.3);
 
@@ -39,7 +39,7 @@ export const ImagemShop = styled.div`
 
 export const Description = styled.div`
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   flex-direction: column;
 `;
